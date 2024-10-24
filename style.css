@@ -1,0 +1,327 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+   
+    header {
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 1rem 0;
+    }
+
+    .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #ff6600;
+        margin-left: 0.5rem;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 1rem;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #666;
+    }
+
+    nav ul li a:hover {
+        color: #ff6600;
+    }
+
+    .cta-button {
+        background-color:  #f97316;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .cta-button1 {
+        width: 250px;
+        height: 75px;
+        background-color:  #ffffff;
+        color: #000000;
+        font-weight: 900;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .hero {
+        background-color: #42d142;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-content {
+        flex: 1;
+        padding-right: 2rem;
+    }
+
+    .hero-image {
+        flex: 1;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+        border-radius: 1rem;
+    }
+
+    .services {
+        background-color: #42d142;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 2rem 0;
+    }
+
+    .services h2 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .service-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .service-item {
+        background-color: #fff;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .service-item img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .about {
+        display: flex;
+        margin: 2rem 0;
+    }
+
+    .about-content {
+        flex: 2;
+        padding-right: 2rem;
+    }
+
+    .about-image {
+        flex: 1;
+        text-align: center;
+    }
+
+    .about-image img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        
+    }
+
+    .about-heading{
+        color:  #f97316;
+    }
+
+    .director{
+        color: rgb(0, 145, 0);
+        font-weight: 900;
+    }
+
+    .about-director{
+        font-size: 12px;
+    }
+
+    .sandwitch{
+        padding-right: 30px;
+    }
+
+    .events {
+        background-color: #42d142;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .event-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .event-item {
+        background-color: #42d142;
+        border-radius: 0.5rem;
+        padding: 1rem;
+    }
+
+    .event-item img {
+        width: 220px;
+        height: 220px;
+       
+        border-radius: 0.5rem;
+        margin-bottom: 0.5rem;
+        padding-right: 10px;
+    }
+
+    .parents-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 40px;
+        margin-top: 60px;
+    }
+    .parents-image {
+        flex: 1;
+        min-width: 300px;
+    }
+    .parents-image img {
+        width: 100%;
+        height: auto;
+        
+    }
+    .parents-content {
+        flex: 1;
+        min-width: 300px;
+    }
+    .parents-content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    .parents-content p {
+        margin-bottom: 20px;
+    }
+    h2.parents-content{
+        color:  #f97316;
+    }
+    .button {
+        width: 250px;
+        height: 70px;
+        background-color: #f97316;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 40px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .button:hover {
+        background-color: #ea580c;
+    }
+
+    .faq-section {
+        background-color: #7ed957;
+        padding: 30px;
+        border-radius: 15px;
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .faq-title {
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .faq-button {
+        background-color: #ffd700;
+        border: none;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .contact-heading{
+        color:  #f97316;
+    }
+
+    .contact {
+        margin: 2rem 0;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    .social-icons {
+        display: flex;
+    }
+
+    .social-icon {
+        display: flex;
+        width: 2rem;
+        height: 2rem;
+        background-color: #ff6600;
+        border-radius: 50%;
+        
+    }
+   
+    .map {
+        height:380px;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 768px) {
+        .header-content, .hero, .about, .parents {
+            flex-direction: column;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        .hero-content, .about-content, .parents-content {
+            padding-right: 0;
+            margin-bottom: 1rem;
+        }
+
+        .service-grid, .event-grid {
+            grid-template-columns: 1fr;
+        }
+    }
